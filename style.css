@@ -1,0 +1,54 @@
+#main{
+    display: grid;
+    grid-template-columns: repeat(4,60px);
+    align-items: center;
+}
+#division{
+    display: flex;
+    height: 550px;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    height: 60px;
+    font-weight: 700;
+    font-size: larger;
+    background-color: black;
+    color: white;
+}
+#box{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    height: 40px;
+    border: 2px solid black;
+    background-color: rgb(224, 221, 221);
+    color: black;
+}
+.op{
+    height: 60px;
+    font-weight: 700;
+    font-size: larger;
+    background-color:rgb(160, 206, 243);
+    color:black;
+}
+.equal{
+    height: 60px;
+    font-weight: 700;
+    font-size: larger;
+    background-color:rgb(241, 109, 109);
+    color:black;
+}
+.trigo{
+    height: 60px;
+    font-weight: 700;
+    font-size: larger;
+    background-color:rgb(78, 78, 78);
+    color:white;
+}
+.exop{
+    height: 60px;
+    font-weight: 700;
+    font-size: larger;
+    background-color:rgb(166, 245, 179);
+    color:black; 
+}

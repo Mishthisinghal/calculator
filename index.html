@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+     <div id="division">
+     <div id="main">
+         <input type="text" id="box">
+         <button class="trigo" onclick="del()">DEL</button>
+         <button class="trigo" onclick="sine()">sin</button>
+         <button class="trigo" onclick="cosine()">cos</button>
+         <button class="trigo" onclick="tangent()">tan</button>
+         <button class="exop" onclick="square()">x<sup>2</sup></button>
+         <button class="exop" onclick="cube()">x<sup>3</sup></button>
+         <button class="exop" onclick="root2()">&radic;</button>
+         <button class="exop" onclick="root3()">&#8731;</button>
+         <button class="op" value="(" onclick="number(value)">(</button>
+         <button class="op" value=")" onclick="number(value)">)</button>
+         <button class="op" value="%" onclick="percent()">%</button>
+         <button class="op" value="/" onclick="number(value)">/</button>
+         <button class="item" value="7" onclick="number(value)">7</button>
+         <button class="item" value="8" onclick="number(value)">8</button>
+         <button class="item" value="9" onclick="number(value)">9</button>
+         <button class="op" value="*" onclick="number(value)">*</button>
+         <button class="item" value="4" onclick="number(value)">4</button>
+         <button class="item" value="5" onclick="number(value)">5</button>
+         <button class="item" value="6" onclick="number(value)">6</button>
+         <button class="op" value="-" onclick="number(value)">-</button>
+         <button class="item" value="1" onclick="number(value)">1</button>
+         <button class="item" value="2" onclick="number(value)">2</button>
+         <button class="item" value="3" onclick="number(value)">3</button>
+         <button class="op" value="+" onclick="number(value)">+</button>
+         <button class="item" onclick="clearscrn()">C</button>
+         <button class="item" value="0" onclick="number(value)">0</button>
+         <button class="item" value="." onclick="number(value)">.</button>
+         <button class="equal" onclick="equalto()">=</button>
+     </div> </div>
+     <script src="Js/style.js"></script>
+</body>
+</html>
